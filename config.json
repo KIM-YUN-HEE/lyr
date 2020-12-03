@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "김윤희"
+  },
+  "text": {
+    "more": "",
+    "intro": "이효리의 노래들의 키워드를 추출하여 키워드 사이의 네트워크를 분석해보았습니다.",
+    "title": "이효리 가사 키워드 네트워크 분석"
+  },
+  "legend": {
+    "edgeLabel": "키워드 등장",
+    "colorLabel": "modularity",
+    "nodeLabel": "가사 키워드"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "frequency",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
